@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+.flexible-fotos{
+    display: flex;
+    /*justify-content: center;*/
+    text-align: center;
+}
+
+.flexible-header{
+    display: flex;
+    justify-content:flex-start;
+    text-align: center;
+}
+
+.flexible-footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1330px;
+}
+
+.logo3V{
+    width: 100px;
+    height: 100px;
+}
+
+.Login{
+    width: 1230px;
+    text-align: right;
+}
+
+.opcionesLogin{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rotativoFotos{
+    width: 760px;
+    height: 570px;
+}
+
+.slogan{
+    width: 570px;
+    height:570px;
+}
+
+/*.opciones{
+    border: solid 2px;
+    border-radius: 8px;
+    padding: 2px;
+}*/
+
+.opciones:hover{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
